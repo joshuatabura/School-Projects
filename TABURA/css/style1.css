@@ -1,0 +1,160 @@
+body{
+	margin:0;
+	background-color: rgb(240, 238, 237);
+}
+.wrapper{
+	margin-top: 10px;
+	
+	width: 86%;
+	height: auto;
+	
+}
+
+.cover{
+	width: 100%;
+	background-image: url(../img/cover.png);
+	float: left;
+	height: 500px;
+}
+.menuBar{
+	background-color: white;
+	margin:0;
+		
+}
+
+ul{
+	life-style-type:none;
+	padding-top: 30px ;
+	margin:0;
+}
+
+li{
+	display: inline;
+	padding: 20px;
+}
+
+li:hover{
+	background-color: blue;
+	border: black;
+}
+.menu div{
+	cursor: pointer;
+	display: inline-block;
+	width: 101px;
+	height: 16px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 10px;
+	padding-top: 10px;	
+	border-right: 2px solid black;
+	float: left;
+	transition: background-color 1s,
+  	color 1s;
+  	color: 	rgb(51, 44, 57);
+}
+.menu div:hover{
+	background: blue;
+	color: white;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+
+#menu4{
+	border: none;
+}
+.wrapper2{
+	background-color: rgb(96, 158, 162);
+	height: auto;
+	float: left;
+	width: 100%;
+	
+	padding-bottom: 10px;
+	
+}
+.wrapper3{
+	background-color: rgb(201, 44, 109);
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.wrapper4{
+	height: auto;
+	background-color: rgb(201, 44, 109);
+	display: inline-block;
+	float: right;
+}
+.wrapper5{
+	background-color: rgb(201, 44, 109);
+	display: block;
+	margin-bottom: 3px ;
+}
+
+.item1{
+	border: 2px solid black;
+	padding: 10px;
+}
+.item2{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px;
+}
+.item1{
+	border: 2px solid black;
+	padding: 10px;
+}
+.item1{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.wrapper3{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 50%;
+	height:auto;
+}
+
+.wrapper4{
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 40%;
+}
+.wrapper5{
+	padding: 10px;
+}
+
+p{
+	font-size: 20.1px;
+}
+
+.list{
+	font-size: 30px;
+}
+
+.content{
+	font-size: 20px;
+	margin-bottom: -20px;
+}
+
+.copyright{
+	display: block;
+	float: left;
+	margin-left: 50px;
+}
+.menu{
+	background-color: white	;
+}
+
+div .active {
+	background-color: red;
+}
+
+input{
+	border: none;
+	border-radius: 50%;
+}

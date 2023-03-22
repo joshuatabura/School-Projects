@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/sample.css">
+
+	<title>Contact</title>
+	<script type="text/javascript">
+		function myFunction(){
+
+			var x , y;
+
+			x=5,y=7;
+
+			let z = x + y;
+			document.getElementById("demo").innerHTML = z;
+			document.getElementById("demo").style.color = "red";
+			document.getElementById("demo").style.float = "right";
+		}
+		</script>
+		
+</head>
+<body>
+	<div class="wrapper">
+		<ul>
+			<li class=""><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="session.html">Session</a></li>
+			<li class="active"><a href="contact.html">Contact</a></li>
+		</ul>
+
+		<h1>This is Contact</h1>
+		<p id="demo" style="float: left;"></p>
+
+		<button type="" onclick="myFunction()">Click Me</button>
+		<center>
+			<div class="wrapper2">
+				<div class="logo">
+					<img src="../img/user.png">
+				</div>		
+				<form class="forminput" method="post" action="validation.php">
+				
+				<label class="" for="username">Username:</label><br>
+				<input id="username" type="text" name="username" placeholder="Username" required /><br><br>
+				<label for="password">Password:</label><br>
+				<input id="password" type="password" name="username" placeholder="Password" required /><br><br>
+				<input id="login" type="submit" value="submit"><br><br>
+				<p>Not Register yet?<a href="">Click Here</a></p>
+				</form>
+
+			</div>
+		</center>
+	</div>
+</body>
+</html>
